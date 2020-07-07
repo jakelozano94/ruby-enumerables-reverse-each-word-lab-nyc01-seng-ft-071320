@@ -5,4 +5,5 @@ def reverse_each_word(phrase)
   array.each do |element|
  backwards << element.backwards
   end
+  backwards
 end
