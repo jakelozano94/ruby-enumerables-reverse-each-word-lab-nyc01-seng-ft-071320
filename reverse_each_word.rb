@@ -1,7 +1,8 @@
 require 'pry'
 def reverse_each_word(phrase)
-  backwards = []
-  array = phrase.split(/ /)
+  array = phrase.split(" ")
+  new_array = []
+  
   array.each do |element|
  backwards << element.backwards
   end
