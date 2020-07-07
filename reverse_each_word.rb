@@ -6,4 +6,3 @@ def reverse_each_word(phrase)
     element.reverse
   end
 end
-binding.pry
